@@ -43,12 +43,40 @@
   height: 100px;
   border-radius: 300px;
 }
-
 .minibox2{
   font-family: 'Roboto';
   margin-top: 1rem;
-
 }
+
+
+#color2{
+  background-color: #c2c7cd;
+}
+#color3{
+  background-color: #b99986;
+}#color4{
+  background-color: #8ba3bf;
+}#color5{
+  background-color: #bfd0bd;
+}#color6{
+  background-color: #4d3028;
+}#color7{
+  background-color: #8d9451;
+}#color8{
+  background-color: #79bbcb;
+}#color9{
+  background-color: #b8a481;
+}#color10{
+  background-color: #899e96;
+}#color11{
+  background-color: #ab773e;
+}#color12{
+  background-color: #66411d ;
+}
+
+
+
+
 
 .container2{
   display: flex;
@@ -61,11 +89,15 @@
 }
 
 .box5, .box6, .box7 , .box8 {
-  background-color: tomato;
+  background-color: white;
   width: 150px;
   height: 150px;
   margin: 3rem 3rem 3rem 3rem;
   text-align: center;
+  border-radius: 300px;
+  border-color: silver;
+  border-style: solid;
+  border-width: thick;
 }
 
 .container3{
@@ -74,14 +106,18 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 8rem;
 
 }
 
 .box9, .box10, .box11 , .box12{
-  background-color: tomato;
+  background-color: white;
   width: 150px;
   height: 150px;
   margin: 3rem 3rem 3rem 3rem;
   text-align: center;
+  border-radius: 300px;
+  border-color: silver;
+  border-style: solid;
+  border-width: thick;
 }
