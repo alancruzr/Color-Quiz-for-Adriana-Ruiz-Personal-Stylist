@@ -1,0 +1,87 @@
+
+
+.container1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.box1, .box2, .box3 , .box4 {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  margin: 3rem 3rem 3rem 3rem;
+  text-align: center;
+  border-radius: 300px;
+  border-color: silver;
+  border-style: solid;
+  border-width: thick;
+}
+#text{
+  font-family: 'Montserrat';
+  line-height: normal;
+  font-size: 16px;
+  padding-top: 3rem;
+  padding-bottom: auto;
+  color: green;
+}
+
+.minicontainer1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+.minibox1{
+  margin-top: 3rem;
+  background-color: #a6b6b5;
+  width: 100px;
+  height: 100px;
+  border-radius: 300px;
+}
+
+.minibox2{
+  font-family: 'Roboto';
+  margin-top: 1rem;
+
+}
+
+.container2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+
+}
+
+.box5, .box6, .box7 , .box8 {
+  background-color: tomato;
+  width: 150px;
+  height: 150px;
+  margin: 3rem 3rem 3rem 3rem;
+  text-align: center;
+}
+
+.container3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+
+}
+
+.box9, .box10, .box11 , .box12{
+  background-color: tomato;
+  width: 150px;
+  height: 150px;
+  margin: 3rem 3rem 3rem 3rem;
+  text-align: center;
+}
