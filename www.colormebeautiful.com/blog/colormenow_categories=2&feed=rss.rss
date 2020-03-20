@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel xml:base="http://www.colormebeautiful.com/store/blog/1-Color-Me-Now.aspx?feed=rss&amp;categories=2">
+    <title>Color Me Now</title>
+    <link>http://www.colormebeautiful.com/store/blog/1-Color-Me-Now.aspx?feed=rss&amp;categories=2</link>
+    <description />
+    <language>en-us</language>
+    <copyright>Copyright 2020</copyright>
+    <managingEditor>info@colormebeautiful.com</managingEditor>
+    <lastBuildDate>Fri, 07 Sep 2018 14:47:53 -0500</lastBuildDate>
+    <category>Color Me Now</category>
+    <item xml:base="http://www.colormebeautiful.com/blog/colormenow/Alpha-Hydroxy-Acid-Magic">
+      <guid isPermaLink="true">http://www.colormebeautiful.com/blog/colormenow/Alpha-Hydroxy-Acid-Magic</guid>
+      <link>http://www.colormebeautiful.com/blog/colormenow/Alpha-Hydroxy-Acid-Magic</link>
+      <author>info@colormebeautiful.com</author>
+      <category>Color Me Now</category>
+      <title>Alpha Hydroxy Acid Magic</title>
+      <description>AHAs or alpha hydroxy acids are a combination acids that aid in the exfoliation, hydration, and cellular turnover in the skin. </description>
+      <pubDate>Wed, 05 Sep 2018 08:50:00 -0500</pubDate>
+      <enclosure url="http://www.colormebeautiful.com/images/banner-ahas.jpg" type="image/jpeg" length="72883" />
+    </item>
+  </channel>
+</rss>
