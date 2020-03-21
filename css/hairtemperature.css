@@ -88,12 +88,12 @@
 
 
 #text{
+  color: transparent;
   font-family: 'Montserrat';
   line-height: normal;
   font-size: 16px;
   padding-top: 3rem;
   padding-bottom: auto;
-  color: black;
 }
 
 .minicontainer1{
@@ -216,6 +216,36 @@
 }
 
 .container3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+
+}
+
+.box9, .box10, .box11 , .box12{
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  margin: 3rem 3rem 3rem 3rem;
+  text-align: center;
+  border-radius: 300px;
+  border-color: silver;
+  border-style: solid;
+  border-width: thick;
+}
+
+
+
+
+
+
+
+
+
+.container4{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
