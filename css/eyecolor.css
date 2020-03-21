@@ -400,7 +400,11 @@ body{
         border-style: solid;
         border-width: thick;
         box-sizing: border-box;
-        margin: 14rem;
+        margin: 12rem;
+      }
+
+      .box3{
+        margin-top: -.5rem;
       }
 
       .minibox1{
