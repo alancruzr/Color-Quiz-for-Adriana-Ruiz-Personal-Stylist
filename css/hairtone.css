@@ -4,7 +4,6 @@
   font-family: 'Montserrat';
   line-height: normal;
   font-size: 3rem;
-  padding-top: 1rem;
   color: black;
   text-align: center;
   font-weight: 200;
@@ -21,7 +20,17 @@
   text-align: center;
   font-weight: 300;
   margin-bottom: 0;
+}
 
+.mainsubtitle2{
+  font-family: 'Roboto';
+  line-height: normal;
+  font-size: 1.5rem;
+  padding: 2rem 12rem 2rem 12rem;
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 0;
 }
 
 .title{
@@ -94,7 +103,7 @@
   font-size: 16px;
   padding-top: 3rem;
   padding-bottom: auto;
-  color: black;
+  color: transparent;
 }
 
 .minicontainer1{
