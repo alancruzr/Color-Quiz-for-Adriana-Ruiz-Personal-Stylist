@@ -4,7 +4,6 @@
   font-family: 'Montserrat';
   line-height: normal;
   font-size: 3rem;
-  padding-top: 1rem;
   color: black;
   text-align: center;
   font-weight: 200;
@@ -152,7 +151,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 8rem;
+  margin-top: 12rem;
 
 }
 
@@ -237,4 +236,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+.globalcontainer{
+  margin-bottom: 45vh;
 }
