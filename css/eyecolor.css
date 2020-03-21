@@ -400,7 +400,8 @@ body{
         border-width: thick;
         box-sizing: border-box;
         margin: 15rem;
-        padding: 13rem;
+        margin-top: 6rem;
+        padding: 7rem;
       }
 
 
