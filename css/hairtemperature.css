@@ -580,7 +580,7 @@ body{
       flex-wrap: wrap;
       justify-content: center;
       align-items:center;
-      margin-top: 2rem;
+      margin-top: 1rem;
 
 
 
@@ -661,7 +661,7 @@ body{
 
 
         .box14{
-          margin-top: 100px;
+          margin-top: 300px;
         }
 
 }
