@@ -403,6 +403,23 @@ body{
 
       }
 
+      #box4grab{
+        margin-top: -1rem;
+        margin-bottom: .5rem;
+      }
+
+      #box6grab{
+        margin-top: -1rem;
+        margin-bottom: -1rem;
+      }
+      
+            #box7grab{
+              margin-top: -1rem;
+              margin-bottom: -1rem;
+            }
+
+
+
 
       .minibox1{
         margin-top: 8rem;
@@ -425,7 +442,7 @@ body{
       justify-content: center;
       align-items:center;
       margin-bottom: -8rem;
-      margin-top: 5rem;
+      margin-top: 8rem;
 
 
 
