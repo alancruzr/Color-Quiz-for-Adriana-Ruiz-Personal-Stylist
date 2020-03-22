@@ -399,7 +399,7 @@ body{
         border-style: solid;
         border-width: thick;
         box-sizing: border-box;
-        padding: 15rem;
+         margin: 15rem;
 
       }
 
