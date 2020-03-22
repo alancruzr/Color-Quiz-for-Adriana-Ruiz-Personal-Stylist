@@ -335,9 +335,7 @@
 
 @media only screen and (max-width: 999px) {
 
-.mainsubtitle{
-  margin-bottom: -4rem;
-}
+
 
   .container1{
     width: 100%;
@@ -446,10 +444,7 @@ body{
 
 }
 
-    .mainsubtitle{
-      margin-bottom: -6rem;
-    }
-
+  
       .container1{
         width: 100%;
         height: auto;
