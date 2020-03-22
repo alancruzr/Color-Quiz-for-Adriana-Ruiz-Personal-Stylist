@@ -454,6 +454,8 @@ body{
       flex-wrap: wrap;
       justify-content: center;
       align-items:center;
+      margin-top: 5rem;
+
 
 
     }
@@ -468,6 +470,8 @@ body{
       border-style: solid;
       border-width: thick;
       box-sizing: border-box;
+      margin: 15rem;
+
     }
 
     .box10{
