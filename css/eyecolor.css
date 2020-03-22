@@ -399,6 +399,7 @@ body{
         border-style: solid;
         border-width: thick;
         box-sizing: border-box;
+        padding: 10rem;
 
       }
 
