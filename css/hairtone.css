@@ -358,7 +358,8 @@ body{
 
 }
 
-  
+
+
       .container1{
         width: 100%;
         height: auto;
@@ -385,6 +386,12 @@ body{
          margin: 15rem;
 
       }
+
+      .box1{
+        margin-top: 100px;
+      }
+
+
 
       .box4{
         margin-top: 100px;
