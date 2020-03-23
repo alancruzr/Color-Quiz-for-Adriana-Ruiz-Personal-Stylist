@@ -1,0 +1,44 @@
+#textlink{
+  text-decoration: none;
+  color: black;
+}
+
+.maintitle{
+  font-family: 'Montserrat';
+  line-height: normal;
+  font-size: 8rem;
+  padding-top: 1rem;
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+
+}
+
+.mainsubtitle{
+  font-family: 'Roboto';
+  line-height: normal;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-left: 9rem;
+  padding-right: 9rem;
+
+
+
+}
+
+.title{
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  height: auto;
+  margin-top: 3rem;
+
+
+}
