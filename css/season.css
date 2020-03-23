@@ -3,16 +3,15 @@
   color: black;
 }
 
+
+
 .maintitle{
   font-family: 'Montserrat';
   line-height: normal;
-  font-size: 8rem;
-  padding-top: 1rem;
+  font-size: 7rem;
   color: black;
   text-align: center;
   font-weight: 700;
-  margin-bottom: 0;
-
 }
 
 .mainsubtitle{
@@ -39,6 +38,71 @@
   width: 30rem;
   height: auto;
   margin-top: 3rem;
+  margin-bottom: -5rem;
+  padding: 2rem 2rem 2rem;
 
 
 }
+
+.tuscolores{
+  font-family: 'Montserrat';
+  line-height: normal;
+  font-size: 3rem;
+  padding-top: 0rem;
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: -5rem;
+}
+
+.color-palette{
+  max-width: 80%;
+  display: auto;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  *{
+    overflow-x:
+  }
+
+  .maintitle{
+    zoom:50%;
+    margin-top: 10rem;
+  }
+
+
+  .title{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: -5rem;
+    padding: 2rem 2rem 2rem;
+    zoom:70%;
+
+
+  }
+
+  .tuscolores{
+    font-family: 'Montserrat';
+    line-height: normal;
+    font-size: 3rem;
+    padding-top: 0rem;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: -2rem;
+  }
+
+
+
+  }
