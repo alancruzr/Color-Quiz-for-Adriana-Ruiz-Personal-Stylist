@@ -49,7 +49,7 @@
 .container1{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
 
@@ -106,7 +106,7 @@
 .minicontainer1{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
 
 }
@@ -190,7 +190,7 @@
 .container2{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   margin-top: 8rem;
@@ -241,7 +241,7 @@
 .container3{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
@@ -297,7 +297,7 @@
 .container4{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   margin-top: 8rem;
@@ -332,20 +332,33 @@
 
 
 
+@media only screen and (max-width: 600px) {
 
-@media only screen and (max-width: 999px) {
+#text{
+  display: none;
 
+}
 
+.mainsubtitle{
+  margin-bottom: -4rem;
+  margin: auto;
+  padding: 2rem 2rem 2rem 2rem;
+}
 
+.minibox1{
+  margin-top: 9rem;
+}
   .container1{
-    width: 100%;
-    height: auto;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+    margin-top: 1rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     align-items:center;
-    margin-bottom: -8rem;
+    zoom:50%;
 
 
 
@@ -354,26 +367,31 @@
     background-color: white;
     width: 150px;
     height: 150px;
-    margin: 3rem 3rem 3rem 3rem;
     text-align: center;
     border-radius: 300px;
     border-color: silver;
     border-style: solid;
     border-width: thick;
     box-sizing: border-box;
-    margin: 9rem;
+
   }
+
 
 
 .container2{
   width: 100%;
+  min-width: 400px;
+
   height: auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
   align-items:center;
+  margin-top: 10rem;
   margin-bottom: -8rem;
+  zoom:50%;
+
+
 
 
 
@@ -382,286 +400,74 @@
   background-color: white;
   width: 150px;
   height: 150px;
-  margin: 3rem 3rem 3rem 3rem;
   text-align: center;
   border-radius: 300px;
   border-color: silver;
   border-style: solid;
   border-width: thick;
   box-sizing: border-box;
-  margin: 9rem;
+}
+
+.box8{
+  margin-top: 20rem;
 }
 
 
 .container3{
   width: 100%;
+  min-width: 400px;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items:center;
+  margin-top: -18rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  zoom:50%;
 
 
 }
+
+
 .box9, .box10, .box11 , .box12 {
   background-color: white;
   width: 150px;
   height: 150px;
-  margin: 3rem 3rem 3rem 3rem;
   text-align: center;
   border-radius: 300px;
   border-color: silver;
   border-style: solid;
   border-width: thick;
   box-sizing: border-box;
-  margin: 9rem;
+  margin-top: 20rem;
 }
 
-.box10{
-  margin-bottom: 13rem;
-
-}
 .box12{
-  margin-top: 5rem;
-
-
+  margin-top: 3rem;
 }
 
 
 .container4{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
-  align-items:center;
+  align-items: center;
+  margin-top: 8rem;
+  zoom:50%;
 
 
 }
-.box11, .box12{
+
+.box13 , .box14{
   background-color: white;
-  width: 150px;
-  height: 150px;
-  margin: 3rem 3rem 3rem 3rem;
+  width: 130px;
+  height: 130px;
   text-align: center;
   border-radius: 300px;
   border-color: silver;
   border-style: solid;
   border-width: thick;
-  box-sizing: border-box;
-  margin: 9rem;
-}
-
-.box11{
-  margin-top: 100px;
-
-}
-.box12{
-  margin-top: 100px;
-
 }
 
 
-}
-
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
-body{
-  max-width: 100vw;
-  zoom: 170%;
-  overflow-x: hidden;
-
 
 }
-
-
-      .container1{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items:center;
-        margin-bottom: -8rem;
-
-
-
-      }
-      .box1, .box2, .box3 , .box4 {
-        background-color: white;
-        width: 150px;
-        height: 150px;
-        text-align: center;
-        border-radius: 300px;
-        border-color: silver;
-        border-style: solid;
-        border-width: thick;
-        box-sizing: border-box;
-         margin: 15rem;
-
-      }
-
-      .box3{
-        margin-top: 100px;
-      }
-
-
-      .box4{
-        margin-top: 100px;
-      }
-
-
-
-
-      .minibox1{
-        margin-top: 8rem;
-        background-color: #a6b6b5;
-        width: 100px;
-        height: 100px;
-        border-radius: 300px;
-      }
-      .minibox2{
-        font-family: 'Roboto';
-        margin-top: 1rem;
-      }
-
-    .container2{
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items:center;
-      margin-bottom: -8rem;
-      margin-top: 8rem;
-
-
-
-    }
-    .box5, .box6, .box7 , .box8 {
-      background-color: white;
-      width: 150px;
-      height: 150px;
-      text-align: center;
-      border-radius: 300px;
-      border-color: silver;
-      border-style: solid;
-      border-width: thick;
-      box-sizing: border-box;
-      margin: 15rem;
-
-    }
-
-
-.box6{
-  margin-top:100px;
-}
-.box7{
-  margin-top:100px;
-}
-.box8{
-  margin-top:100px;
-}
-
-    .container3{
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items:center;
-      margin-top: 1rem;
-
-
-
-    }
-    .box9, .box10, .box11 , .box12 {
-      background-color: white;
-      width: 150px;
-      height: 150px;
-      text-align: center;
-      border-radius: 300px;
-      border-color: silver;
-      border-style: solid;
-      border-width: thick;
-      box-sizing: border-box;
-      margin: 15rem;
-
-    }
-
-    #box8wera{
-
-        margin-top:300px;
-
-    }
-
-    .box9{
-
-        margin-top:100px;
-
-    }
-
-    .box10{
-      margin-top: 100px;
-    }
-
-
-
-.box11{
-  margin-top: 100px;
-
-
-}
-
-    .box12{
-      margin-top: 100px;
-    }
-
-    .container4{
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items:center;
-      margin-top: 1rem;
-
-
-
-    }
-    .box13, .box14, {
-      background-color: white;
-      width: 150px;
-      height: 150px;
-      text-align: center;
-      border-radius: 300px;
-      border-color: silver;
-      border-style: solid;
-      border-width: thick;
-      box-sizing: border-box;
-      margin: 15rem;
-
-    }
-
-
-    .box13{
-      margin-top: 80px;
-    }
-
-
-        .box14{
-          margin-top: 200px;
-        }
-
 }
